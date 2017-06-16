@@ -1,0 +1,3 @@
+50-suspend-prevent.rules lib/udev/rules.d
+95suspend-prevent usr/lib/pm-utils/sleep.d
+suspend-prevent usr/bin

@@ -1,0 +1,14 @@
+#!/bin/sh
+# Don't suspend on lid-close when plugged in
+
+[ -x /usr/bin/suspend-prevent ] || exit $NA
+
+case "$1" in
+	thaw|resume) 
+		/usr/bin/suspend-prevent
+		;;
+	*) exit $NA
+		;;
+esac
+
+exit 0

@@ -1,0 +1,15 @@
+Source: suspend-prevent
+Section: admin
+Priority: optional
+Maintainer: D. Stuart Freeman <stuart.freeman@c21u.gatech.edu>
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/stuartf/suspend-prevent.git
+Vcs-Browser: https://github.com/stuartf/suspend-prevent
+
+Package: suspend-prevent
+Architecture: all
+Depends: ${misc:Depends}
+Description: Prevent system going into suspend when plugged into wall power.
+ Prevent system from going into suspend when plugged into wall power, allow it
+ while on battery power.
