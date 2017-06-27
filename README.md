@@ -8,3 +8,5 @@ Based on Nicco Di Rocco's blog post at https://nrocco.github.io/2014/06/05/suspe
 To build:
 
     debuild -i -us -uc -b
+
+The built package is available in the [releases](https://github.com/stuartf/suspend-prevent/releases) of the github repo.
